@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ExerciseTracker</title>
+   
+  
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDD353fOPh-KBUQ-2ekPCg75uxXRn0D9Tk&sensor=false"></script>
+  <script type="text/javascript" src="json2.js"></script>
+  <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="jquery.mobile-1.1.0.min.js"></script>
+  
+  <script type="text/javascript" src="cordova.js"></script>
+   <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+  <script type="text/javascript" src="js/workout.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/new.css">
+  
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+		   <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+         <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"> </script>
+		 
+		 <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+   
+</head>
+<body>
+<div data-role="page" id="history"data-theme="a">
+ 
+    <div data-role="header">
+        <h1>History</h1>
+		
+		 <div data-role="navbar">
+                    <div class="center sliding">Workout Tracker</div>
+					
+		 <ul>
+      <li><a href="index.html" data-transition="none" data-icon="home"data-theme="b">Home</a></li>
+      </ul>
+                   
+            </div>
+			</div>
+			
+			<div data-role="content"> 
+                    <!-- Scrollable page content -->
+                    <div class="page-content">
+                        <div class="content-block">
+                          <p><a href="add.html" class="button">Add Workout</a></p>
+                          <br>
+                          <div class="content-block-title">Recent Workouts</div>
+                          <div class="list-block">
+                            <ul id="workout-list"></ul>
+                          </div>
+                        </div>
+                    </div>
+					 </div>
+                
+	</body>
+</html>
+ 
+ 
